@@ -27,4 +27,4 @@ gemfile:
   - Gemfile
 
 jdk:
-  - openjdk8
+  - openjdk7
