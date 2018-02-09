@@ -7,9 +7,6 @@ before_install:
   - gem update --system
   - gem update bundler
 
-before_script:
-  - bundle exec jbundle install
-
 script: 'bundle exec rake test:spec test:remote:spec'
 
 notifications:
@@ -27,4 +24,4 @@ gemfile:
   - Gemfile
 
 jdk:
-  - openjdk7
+  - openjdk8
